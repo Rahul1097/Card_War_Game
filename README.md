@@ -1,7 +1,11 @@
 # Card_War_Game
-Card War Game using simple Python OOPs concepts.
+Card War Game demonstrating simple Python OOPs concepts.
 
-**Game Description-**
+<img src = "https://github.com/Rahul1097/Card_War_Game/blob/master/images/image1.PNG" width=100%>
+
+<img src = "https://github.com/Rahul1097/Card_War_Game/blob/master/images/image2.PNG" width=100%>
+
+# Game Description-
 
 The objective of the game is to win all of the cards.
 
@@ -11,18 +15,14 @@ If the two cards played are of equal value, then there is a "War".Both players p
 
 Reference - https://en.wikipedia.org/wiki/War_(card_game)
 
-**The code contains 3 classes-**
+# The code contains 3 classes-
 
 1. **Class Card** contains the definition for suit, rank and value of the card.
 2. **Class Deck** defines the deck of cards, creates card objects, shuffles the card objects and pops one card from the deck.
 3. **Class Player** defines the player information and contains functions for removing one card from the top, adding cards at the bottom.
 
-The Game logic includes-
+**The Game logic includes-**
 1. The no of rounds for which the game lasted.
 2. If any player ends up with all his cards, game ends and other player wins.
 3. War condition if the cards match up, with atleast 5 cards left with the players to play the war.
 4. Game ends if any player does not have sufficient cards to play the war.
-
-
-
-
