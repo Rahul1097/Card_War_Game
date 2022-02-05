@@ -26,3 +26,9 @@ Reference - https://en.wikipedia.org/wiki/War_(card_game)
 2. If any player ends up with all his cards, game ends and other player wins.
 3. War condition if the cards match up, with atleast 5 cards left with the players to play the war.
 4. Game ends if any player does not have sufficient cards to play the war.
+
+# Steps to Setup-
+
+Clone the repository and run below command-
+
+```python game.py```
