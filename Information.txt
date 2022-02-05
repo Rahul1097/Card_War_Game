@@ -1,0 +1,42 @@
+Developing the game logic -
+
+Card War Game
+A deck of 52 cards are taken
+Divide the cards into 2 players-26 cards each
+Both will show a Card and the Card with higher ranking wins and winner takes both cards.
+Player loses of there are no more cards remaining with any player
+If both the cards are of exact same value the game continues and the higher card player will take all the cards.
+4 classes will be used-
+Card class
+Deck class
+Player class
+Game Logic
+
+Card class-
+Suit-hearts,diamond,spade,club
+rank-1,2,....
+value-for storing higher one
+
+Deck Class-
+new deck should be instantiated
+
+Player class-
+Hold players current list of cards
+Remove or add cards to current card objects of player
+should be able to add single or multiple cards to their list
+add or remove card from top or botton from list
+pop(0)- to remove a card from top
+append()-to add card at bottom
+extend()-to add multiple cards at bottom
+
+Game logic-
+two player class objects-
+Playerone, playertwo
+instantiate a deck -->shuffle it-->split it into both the players
+check if cardsare 0 for any player. if yes the other player won else game on
+Each player draws a card
+compareadd cards to winner at bottom
+3 situations-
+Player 1 card>Player 2 card
+Player 1 card<Player 2 card
+Player 1 card=Player 2 card
